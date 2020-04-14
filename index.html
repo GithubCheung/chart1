@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -14,9 +14,6 @@
         var myChart = echarts.init(document.getElementById('main'));
 
         // 指定图表的配置项和数据
-        var img = new Image(); 
-img.src='https://img.zcool.cn/community/0141925960f06aa8012193a331f15a.jpg@1280w_1l_2o_100sh.jpg';
-
 option = {
     title: {
         text: '中国化妆品类产量、销售总额及其增长率',
@@ -43,10 +40,6 @@ option = {
                     y2:40,
                     borderWidth:0
                 },
-    backgroundColor: {
-           repeat: 'repeat',
-           image: img// 赋值
-},
     tooltip: {
         trigger: 'axis',
         formatter: '{a0}:{c0}% <br/>{a1}:{c1}亿<br/>{a2}:{c2}万吨',
